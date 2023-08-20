@@ -19,7 +19,7 @@ pipeline {
                     [
                         artifactId: 'wwp', 
                         classifier: '', 
-                        file: 'target/wwp-1.0.0.war', 
+                        file: 'target/wwp-2.1.0.war', 
                         type: 'war'
                     ]
                 ], 
@@ -29,7 +29,7 @@ pipeline {
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: 'samplerepo', 
-                    version: '1.0.0'
+                    version: '2.1.0'
             }
         }
     }
